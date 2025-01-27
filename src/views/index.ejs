@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="https://static.vecteezy.com/system/resources/previews/014/384/856/large_2x/cute-cat-reading-book-cartoon-icon-illustration-animal-education-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg">
+    <title>Aprende Jugando</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main class="game-container" role="main" aria-labelledby="main-title">
+        <h1 id="main-title" tabindex="0">Aprende Jugando</h1>
+
+        
+        <!-- Imagen con accesibilidad -->
+        <img  tabindex="0"
+            src="https://static.vecteezy.com/system/resources/previews/014/384/856/large_2x/cute-cat-reading-book-cartoon-icon-illustration-animal-education-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg"
+            alt="Un gato lindo leyendo un libro, ilustración de dibujos animados sobre educación"
+            title="Un gato lindo leyendo un libro"
+            role="img"
+            draggable="false"
+            style="display: block; margin: 20px auto; max-width: 300px; border: 3px solid #000; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"
+        >
+
+        <!-- Contenedor de botones -->
+        <div class="btn-container">
+            <button 
+                class="next-button" 
+                onclick="window.location.href='instrucciones'" 
+                aria-label="Ir a las instrucciones del juego"
+            >
+                Instrucciones
+            </button>
+
+            <button 
+                class="next-button" 
+                onclick="window.location.href='educativo'" 
+                aria-label="Ir a la sección de juego"
+            >
+                Jugar 🎮
+            </button>
+        </div>
+    </main>
+</body>
+</html>
