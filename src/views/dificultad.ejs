@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg"
+        href="https://static.vecteezy.com/system/resources/previews/014/384/856/large_2x/cute-cat-reading-book-cartoon-icon-illustration-animal-education-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg">
+    <title>Selecciona la dificultad</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body style="background-image: url('https://i.pinimg.com/736x/f5/66/83/f56683902beb363db6d29ec1fd3a507d.jpg'); 
+background-size: cover; 
+background-position: center center; 
+background-attachment: fixed;">
+    <div class="game-container">
+        <h1>Selecciona tu nivel de dificultad</h1>
+        <div class="difficulty-buttons">
+            <button class="difficulty-button" data-time="180">🔰 Muy Fácil (3 min) <br> "Tiempo extra para
+                pensar"</button>
+            <button class="difficulty-button" data-time="150">🟢 Fácil (2 min 30 seg) <br> "Un ritmo tranquilo"</button>
+            <button class="difficulty-button" data-time="120">🟡 Moderado (2 min) <br> "Desafío balanceado"</button>
+            <button class="difficulty-button" data-time="90">🔴 Difícil (1 min 30 seg) <br> "Un reto acelerado"</button>
+            <button class="difficulty-button" data-time="60">🔥 Muy Difícil (1 min) <br> "¡Solo para los
+                valientes!"</button>
+        </div>
+    </div>
+
+    <!-- Mensaje de confirmación (oculto por defecto) -->
+    <div id="difficultyMessage" class="difficulty-message hidden" role="alert" aria-live="assertive">
+        <p id="difficultyText"></p>
+        <button id="confirmDifficulty">Comenzar</button>
+    </div>
+
+    <script src="js/keyboardNavigation.js"></script>
+    <script src="/js/gameSettings.js"></script>
+
+</body>
+
+</html>

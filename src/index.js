@@ -25,3 +25,5 @@ app.listen(port, () => {
 app.on('error', (err) => {
     console.error(`Error starting server: ${err.message}`);
 });
+
+app.use(express.static('public'));
