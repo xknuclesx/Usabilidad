@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpeg" href="https://static.vecteezy.com/system/resources/previews/014/384/856/large_2x/cute-cat-reading-book-cartoon-icon-illustration-animal-education-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg">
+    <link rel="icon" type="image/jpeg"
+        href="https://static.vecteezy.com/system/resources/previews/014/384/856/large_2x/cute-cat-reading-book-cartoon-icon-illustration-animal-education-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg">
     <title>Aventura de las Letras</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body style="background-image: url('https://i.pinimg.com/736x/f5/66/83/f56683902beb363db6d29ec1fd3a507d.jpg'); 
 background-size: cover; 
 background-position: center center; 
 background-attachment: fixed;">
     <!-- Contenedor principal -->
-    <div class="min-h-screen bg-gradient-to-b from-blue-100 to-purple-100 p-6" role="main" aria-labelledby="main-title">
+    <div class="game-container" role="main" aria-labelledby="main-title">
         <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-8">
             <!-- Título -->
             <div class="text-center mb-8">
-                <h1 id="main-title" class="text-4xl font-bold text-blue-600 mb-4" tabindex="0" aria-labelledby="Aventura de las Letras">
+                <h1 id="main-title" class="text-4xl font-bold text-blue-600 mb-4" tabindex="0"
+                    aria-labelledby="Aventura de las Letras">
                     ¡Aventura de las Letras! 🚀
                 </h1>
                 <!-- Imagen accesible -->
-                <img 
-                    src="https://i.pinimg.com/736x/ef/e9/14/efe914edb076fcd47aaad5911801af4c.jpg"
-                    alt="Gato lindo leyendo, representando educación y aventura"
-                    title="Gato leyendo"
-                    tabindex="0"
+                <img src="https://i.pinimg.com/736x/ef/e9/14/efe914edb076fcd47aaad5911801af4c.jpg"
+                    alt="Gato lindo leyendo, representando educación y aventura" title="Gato leyendo" tabindex="0"
                     style="display: block; margin: 20px auto; max-width: 300px; border: 3px solid #000; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-                    <h2 class="text-2xl text-purple-600 font-semibold" tabindex="0" aria-label="Descubre la Magia de la ube y la B.">
-                        Descubre la Magia de la "V" y la "B".
-                    </h2>
-                    
             </div>
 
             <!-- Contenido educativo -->
@@ -39,16 +36,18 @@ background-attachment: fixed;">
                     <h3 class="text-xl font-bold text-blue-700" aria-label="la ube viajera.">
                         La "V" Viajera.
                     </h3>
-                    
-                        <p class="flex items-center gap-2">
-                            <span class="text-blue-500" aria-label="viene de palabras latinas antiguas." >✨Viene de palabras latinas antiguas.</span>
-                            
-                        </p>
-                        <p class="flex items-center gap-2">
-                            <span class="text-blue-500" aria-label="como en vivir, volar, aventura.">🎮Como en: <strong>vivir, volar, aventura.</strong></span>
-                        
-                        </p>
-                    
+
+                    <p class="flex items-center gap-2">
+                        <span class="text-blue-500" aria-label="viene de palabras latinas antiguas.">✨Viene de palabras
+                            latinas antiguas.</span>
+
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <span class="text-blue-500" aria-label="como en vivir, volar, aventura.">🎮Como en:
+                            <strong>vivir, volar, aventura.</strong></span>
+
+                    </p>
+
                 </div>
 
                 <!-- Sección "La B Bailarina" -->
@@ -56,16 +55,18 @@ background-attachment: fixed;">
                     <h3 class="text-xl font-bold text-purple-700" aria-label="la b bailarina.">
                         La "B" Bailarina.
                     </h3>
-                    
-                        <p class="flex items-center gap-2">
-                            <span class="text-purple-500" aria-label="se usa en palabras que termina en ado y ada.">🌟Se usa en palabras que terminan en "ado" y "ada".</span>
-                        
-                        </p>
-                        <p class="flex items-center gap-2">
-                            <span class="text-purple-500" aria-label="como en amado,trabajado, cambiada.">🎯Como en: <strong>amado, trabajado, cambiada.</strong></span>
-                            
-                        </p>
-                    
+
+                    <p class="flex items-center gap-2">
+                        <span class="text-purple-500" aria-label="se usa en palabras que termina en ado y ada.">🌟Se usa
+                            en palabras que terminan en "ado" y "ada".</span>
+
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <span class="text-purple-500" aria-label="como en amado,trabajado, cambiada.">🎯Como en:
+                            <strong>amado, trabajado, cambiada.</strong></span>
+
+                    </p>
+
                 </div>
             </div>
 
@@ -75,12 +76,10 @@ background-attachment: fixed;">
                     ¡Aprende con un Video Divertido!
                 </h3>
                 <div class="relative pb-[56.25%] h-0">
-                    <iframe 
-                        src="https://www.youtube.com/embed/2aMoTdPzAa4"
+                    <iframe id="educationalVideo" src="https://www.youtube.com/embed/2aMoTdPzAa4"
                         title="Video educativo sobre las letras V y B"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        style="
+                        allowFullScreen tabindex="0" role="button" aria-label="Reproducir video educativo" style="
                             display: block; 
                             margin: 20px auto; 
                             max-width: 560px; 
@@ -90,25 +89,25 @@ background-attachment: fixed;">
                             border-radius: 10px; 
                             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                         ">
-                    </iframe>            
+                    </iframe>
                 </div>
             </div>
 
             <!-- Botón accesible -->
-            <button 
-                class="next-button" 
-                onclick="redirigir()" 
-                aria-label="Presiona para saltar la explicación e ir directamente al juego"
-                tabindex="0">
-                Saltar explicación
+            <button class="next-button" onclick="redirigir()" aria-label="Presiona para comenzar el juego" tabindex="0">
+                Comenzar el juego
             </button>
         </div>
     </div>
 
     <script>
         function redirigir() {
-            window.location.href = "juego";
+            window.location.href = "dificultad";
         }
     </script>
+    
+    <script src="js/keyboardNavigation.js"></script>
+    <script src="js/gameSettings.js"></script>
 </body>
+
 </html>
